@@ -51,3 +51,6 @@ Once logged in, you can get check your current connection information by running
 ~~~
 \conninfo
 ~~~
+
+you can go to this link for more information
+https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
