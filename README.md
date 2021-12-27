@@ -21,3 +21,33 @@ sudo -i -u postgres
 psql
 ~~~
 
+# Password initialisation
+~~~
+alter user postgres with password 'your_password'
+~~~
+
+# for exit the psql server
+~~~
+\q
+~~~
+then
+~~~
+exit;
+~~~
+
+# for creating new user
+~~~
+sudo -u postgres createuser --interactive
+~~~
+
+now set name and confirm this
+~~~
+Output
+Enter name of role to add: sammy
+Shall the new role be a superuser? (y/n) y
+~~~
+
+Once logged in, you can get check your current connection information by running:
+~~~
+\conninfo
+~~~
