@@ -23,8 +23,9 @@ psql
 
 # Password initialisation
 ~~~
-alter user postgres with password 'your_password'
+\password
 ~~~
+then set a password
 
 # for exit the psql server
 ~~~
